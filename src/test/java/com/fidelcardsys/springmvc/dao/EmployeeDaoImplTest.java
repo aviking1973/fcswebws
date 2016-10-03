@@ -1,6 +1,7 @@
 package com.fidelcardsys.springmvc.dao;
 
 import java.math.BigDecimal;
+import java.util.Date;
 
 import org.dbunit.dataset.IDataSet;
 import org.dbunit.dataset.xml.FlatXmlDataSet;
@@ -76,8 +77,8 @@ public class EmployeeDaoImplTest extends EntityDaoImplTest{
 		Employee employee = new Employee();
 		employee.setName("Karen");
 		employee.setSsn("12345");
-		employee.setSalary(new BigDecimal(10980));
-		employee.setJoiningDate(new LocalDate());
+//		employee.setSalary(new BigDecimal(10980));
+		employee.setJoiningDate(new Date());
 		return employee;
 	}
 

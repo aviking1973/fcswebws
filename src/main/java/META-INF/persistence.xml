@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="fcswebws">
+		<class>com.fidelcardsys.springmvc.model.FcrdActivitiesTrace</class>
+		<class>com.fidelcardsys.springmvc.model.FcrdBarcodecard</class>
+		<class>com.fidelcardsys.springmvc.model.FcrdBarcodecardsArchive</class>
+		<class>com.fidelcardsys.springmvc.model.FcrdCalcType</class>
+		<class>com.fidelcardsys.springmvc.model.FcrdCard</class>
+		<class>com.fidelcardsys.springmvc.model.FcrdCardPK</class>
+		<class>com.fidelcardsys.springmvc.model.FcrdCardsArchive</class>
+		<class>com.fidelcardsys.springmvc.model.FcrdCardsArchivePK</class>
+		<class>com.fidelcardsys.springmvc.model.FcrdClient</class>
+		<class>com.fidelcardsys.springmvc.model.FcrdProvCalctype</class>
+		<class>com.fidelcardsys.springmvc.model.FcrdProvCalctypePK</class>
+		<class>com.fidelcardsys.springmvc.model.FcrdProvGroup</class>
+		<class>com.fidelcardsys.springmvc.model.FcrdProvider</class>
+		<class>com.fidelcardsys.springmvc.model.FcrdProvidersLocation</class>
+		<class>com.fidelcardsys.springmvc.model.FcrdProvidersMsgpredefined</class>
+		<class>com.fidelcardsys.springmvc.model.FcrdRandcrdnr</class>
+		<class>com.fidelcardsys.springmvc.model.FcrdToken</class>
+		<class>com.fidelcardsys.springmvc.model.Employee</class>
+	</persistence-unit>
+</persistence>
